@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    z-index: 1;
+    min-height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Nanum Gothic';
+    line-height: 1.7;
+}
+
+#myVideo {
+    z-index: 0;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+}
