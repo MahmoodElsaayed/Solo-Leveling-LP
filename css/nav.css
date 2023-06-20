@@ -1,0 +1,54 @@
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #0206419f;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    margin: 10px 60px;
+    padding: 0px;
+    gap: 40px;
+}
+
+nav li {
+    flex: 0 1 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+nav a {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+nav .logo {
+    margin-right: auto;
+}
+
+nav img {
+    width: 80%;
+    min-width: 30px;
+    height: auto;
+}
+
+@media screen and (max-width: 650px){
+    nav ul {margin: 10px 50px; gap: 30px;}
+    nav a {font-size: 15px;}
+}
+
+@media screen and (max-width: 550px){
+    nav ul {margin: 10px 40px; gap: 20px;}
+    nav a {font-size: 12px;}
+}
+
+@media screen and (max-width: 400px){
+    nav ul {margin: 10px 30px; gap: 10px;}
+    nav a {font-size: 9px;}
+}
