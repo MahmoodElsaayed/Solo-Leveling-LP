@@ -27,6 +27,15 @@ nav a {
     font-weight: bold;
     color: white;
     text-decoration: none;
+    text-shadow:
+    0 0 7px #00f,
+    0 0 10px #00d,
+    0 0 21px #00b,
+    0 0 42px #009,
+    0 0 82px #007,
+    0 0 92px #005,
+    0 0 102px #003,
+    0 0 151px #001;
 }
 
 nav .logo {
