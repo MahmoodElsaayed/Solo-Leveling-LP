@@ -1,8 +1,8 @@
 .about-container {
     position: relative;
-    height: 60vh;
+    height: 100vh;
     display: flex;
-    align-items: flex-end;
+    align-items: center;
 }
 
 .about-container .content {
@@ -50,6 +50,7 @@
 }
 
 .about-container .card {
+    flex: 0 1 150px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -59,7 +60,7 @@
 }
 
 .about-container img {
-    width: 150px;
+    width: 100%;
     height: auto;
     border-radius: 10px;
     opacity: 80%;
