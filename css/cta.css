@@ -1,0 +1,48 @@
+.cta-container {
+    position: relative;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-container .content {
+    flex: 0 1 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: last baseline;
+    padding: 30px 80px;
+    border-radius: 20px ;
+    background-color: rgba(9, 10, 39, 0.685);
+}
+
+.cta-container .text {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-shadow:
+    0 0 7px #00f,
+    0 0 10px #00d,
+    0 0 21px #00b,
+    0 0 42px #009,
+    0 0 82px #007,
+    0 0 92px #005,
+    0 0 102px #003,
+    0 0 151px #001;
+}
+
+.cta-container .main {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.cta-container sub {
+    font-size: 14px;
+}
+
+.cta-container .signup-button {
+    background-color: rgba(4, 13, 65, 0.829);
+    border: 3px solid white;
+    border-radius: 70px;
+    padding: 10px 20px;
+    text-decoration: none;
+}
