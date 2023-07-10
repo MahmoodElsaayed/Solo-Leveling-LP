@@ -14,3 +14,5 @@
     - Sure, if you take a closer look, you might spot some flaws, not-so-great practices, and a bit of a messy design. But hey, guess what? Just three weeks ago, I didn't know a thing about HTML and CSS. So, the fact that I managed to create something this cool in less than a month is one of the proudest moments of my life. Probably second only to when I stopped wetting the bed in 3rd grade. Good times!
 
     - So yeah, that's the story of my amazing CSS adventure. It's been a wild ride, but I wouldn't trade it for anything. Now, if you'll excuse me, I'm off to get my much needed warrior's rest!
+ 
+- [live preview](https://mahmoodelsaayed.github.io/Solo-Leveling-LP/)
